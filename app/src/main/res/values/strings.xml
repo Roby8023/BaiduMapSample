@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name">BaiduMap</string>
+
+  <!--定位提示信息-->
+  <string name="loc_title">请允许App获取[定位]及读取[手机状态]</string>
+  <string name="loc_msg">请在系统的设置－隐私－定位服务界面允许App确定您的[位置]及读取[手机状态]</string>
+  <string name="loc_negative">定位失败,请手动开启定位和手机状态权限</string>
+
+  <string name="cancel">取消</string>
+  <string name="ok">确定</string>
+  <string name="position_marker">地理位置标记</string>
+  <string name="map_location_name">位置名称</string>
+  <string name="input_location_name">请输入位置名称</string>
+  <string name="set_point_fence">设置位置围栏</string>
+  <string name="delete_location">删除位置</string>
+
+  <string name="input_point_info">请输入位置信息</string>
+  <string name="input_point_name">请输入位置名称</string>
+  <string name="are_u_sure_to_del">确认删除此项吗？</string>
+
+  <string name="clear_all_points">清空所有坐标</string>
+  <string name="show_point_shape">显示区域</string>
+  <string name="save">保存</string>
+
+</resources>

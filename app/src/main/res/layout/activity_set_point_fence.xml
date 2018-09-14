@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+  <com.baidu.mapapi.map.MapView
+      android:id="@+id/bmapView"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:clickable="true"
+      />
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_alignParentBottom="true"
+      android:orientation="horizontal"
+      >
+
+    <Button
+        android:id="@+id/btAddPoint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1.0"
+        android:text="@string/clear_all_points"
+        />
+
+    <Button
+        android:id="@+id/btSetResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1.0"
+        android:text="@string/show_point_shape"
+        />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1.0"
+        android:text="@string/save"
+        />
+  </LinearLayout>
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:alpha="0.7"
+      android:background="#1b7ae6"
+      android:padding="2dp"
+      android:text="   '栅栏'编辑，点击地图上任意点进行添加，点击已添加的大头针时会删除当前点，要形成一个栅栏至少需要3个点。\n值得注意的一点是行程栅栏的的形状是根据点的添加顺序而形成的！而非本身所有点形成的形状！"
+      android:textColor="#fff"
+      android:textSize="12sp"
+      />
+</RelativeLayout>
