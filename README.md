@@ -10,6 +10,7 @@
 
 
 ## 截图
+#(动图在找到好的录制Gif工具后续会加上)
 
 <img src="https://github.com/SuperRioo/BaiduMapSample/blob/master/pictures/CEB9CF2F46BB65566AC4879FA968F6E4.jpg" width="330" hspace="20" />
 
